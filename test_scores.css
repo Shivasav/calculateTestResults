@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 510px;
+  padding: 0 2em 1em;
+  background: linear-gradient(-45deg, #46bae0, #163c68, #09759c, #039170);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: rgb(254, 255, 250);
+  margin-top: 50px;
+}
+main {
+  border: 3px solid white;
+  padding: 10px;
+}
+h1 {
+  color: rgb(254, 255, 250);
+  text-align: center;
+}
+h2 {
+  color: rgb(254, 255, 250);
+  font-size: 120%;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+div {
+  margin-bottom: 1em;
+}
+label {
+  display: inline-block;
+  width: 3em;
+  text-align: right;
+}
+input {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+span {
+  color: rgb(254, 255, 250);
+}
+p {
+  margin: 0;
+}
+#scores label {
+  width: 10em;
+  text-align: left;
+}
+@keyframes gradient {
+  0% {
+    /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 0% 50%;
+  }
+  50% {
+    /*this means 100% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 100% 50%;
+  }
+  100% {
+    /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 0% 50%;
+  }
+}
